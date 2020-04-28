@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Box-shadow Previewer</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Teste a propriedade Box-shadow do CSS</h1>
+    </header>
+
+    <main>
+        <div class="linha">
+            <div>
+                <input type="text" name="xAxis" id="xAxis" value="0">
+                <input type="text" name="yAxis" id="yAxis" value="0">
+                <input type="text" name="blur" id="blur" value="0">
+                <input type="text" name="spread" id="spread" value="0">
+                <input class="shadowColor" type="text" name="shadowColor" id="shadowColor" value="#ffffff">
+            </div>
+        </div>
+        <div id="caixa" class="caixa">
+            <div id="conteudo" class="conteudo">
+                <p>
+                    box-shadow:
+                    <span id="bsh">0px 0px 0px 0px #ffffff</span>;
+                </p>
+
+                <textarea id="conteudoCopiar" cols="1" rows="1"></textarea>
+
+                <button id="botaoCopiar">
+                    Copy
+                </button>
+            </div>
+        </div>
+        <div class="linha">
+            <div>
+                Div color: <input class="divColor" type="text" name="divColor" id="divColor" value="#ffffff">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Joacy Mesquita</p>
+    </footer>
+
+    <script src="public/js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  background: #255c99;
+  color: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+main,
+footer {
+  padding: 0px 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 15px;
+}
+
+header h1 {
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+main {
+  padding: 0px 0px;
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+}
+
+main .linha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .linha input {
+  font-size: 14px;
+  font-weight: bold;
+  color: #255c99;
+  background: #f9f9f9;
+  border: 0;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+input + input {
+  margin-left: 5px;
+}
+
+main .linha input.shadowColor,
+main .linha input.divColor {
+  width: auto;
+  margin-left: 10px;
+}
+
+main .caixa {
+  width: 100%;
+  height: 240px;
+  margin: 15px 0px;
+  padding: 50px;
+  background: #ffffff;
+  display: flex;
+  border-radius: 8px;
+}
+
+main .caixa .conteudo p {
+  color: #255c99;
+  font-size: 16px;
+}
+
+main .caixa .conteudo textarea {
+  opacity: 0;
+}
+
+main .caixa .conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+main .caixa .conteudo button {
+  background: transparent;
+  border: 1px solid #255c99;
+  color: #255c99;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s;
+}
+
+main .caixa .conteudo button:hover {
+  background: #255c99;
+  color: #f9f9f9;
+}
+
+footer {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  margin-top: 100px;
+  width: 100%;
+  background: #262626;
+}
+
+footer p {
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 14px;
+  font-weight: normal;
+}
