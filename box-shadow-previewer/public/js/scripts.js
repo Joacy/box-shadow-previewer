@@ -16,12 +16,14 @@ document
         document.getElementById("conteudo").style.boxShadow = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
 
         document.getElementById("bsh").innerText = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
     });
 
 document
@@ -36,12 +38,14 @@ document
         document.getElementById("conteudo").style.boxShadow = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
 
         document.getElementById("bsh").innerText = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
     });
 
 document
@@ -56,12 +60,14 @@ document
         document.getElementById("conteudo").style.boxShadow = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
 
         document.getElementById("bsh").innerText = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
     });
 
 document
@@ -76,12 +82,14 @@ document
         document.getElementById("conteudo").style.boxShadow = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
 
         document.getElementById("bsh").innerText = xAxis + "px" + " " +
             yAxis + "px" + " " +
             blur + "px" + " " +
-            spread + "px";
+            spread + "px" + " " +
+            shadowColor;
     });
 
 document
